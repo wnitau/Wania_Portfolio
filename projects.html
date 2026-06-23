@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects; Wania Saleem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div>
+                <div class="sidebar-name">wania<span style="color:var(--accent)">.</span>dev</div>
+                <div class="sidebar-role">// cs_student & developer</div>
+            </div>
+            <div class="sidebar-status">
+                <div class="status-dot"></div>
+                open to work
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+        <div class="mobile-drawer" id="mobile-drawer">
+            <div class="drawer-section">~/navigate</div>
+            <a href="index.html">🏠 home</a>
+            <div class="drawer-section">~/links</div>
+            <a href="projects.html" class="active">📁 projects</a>
+            <a href="resume.html">📄 resume</a>
+            <a href="contact.html">✉ contact</a>
+        </div>
+
+        <nav>
+            <div class="nav-group-label">~/navigate</div>
+            <a href="index.html"><span class="nav-icon">🏠</span> home</a>
+            <div class="nav-group-label">~/links</div>
+            <a href="projects.html" class="active"><span class="nav-icon">📁</span> projects</a>
+            <a href="resume.html"><span class="nav-icon">📄</span> resume</a>
+            <a href="contact.html"><span class="nav-icon">✉</span> contact</a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="https://github.com/wnitau" target="_blank" rel="noopener">⌥ github / wnitau</a>
+            <a href="mailto:waniasaleem12@gmail.com">⌥ waniasaleem12@gmail.com</a>
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <div class="page-header">
+            <div class="section-label">projects</div>
+            <h1 class="section-title">Things I've Built</h1>
+            <p class="section-body">A mix of real-world applications, database systems, and frontend work, each one a step forward.</p>
+        </div>
+
+        <div class="project-list">
+
+            <!-- PROJECT 1: Wantrix -->
+            <div class="project-card">
+                <div class="project-card-header featured">
+                    <div>
+                        <div class="project-eyebrow">⭐ featured project</div>
+                        <div class="project-name">Wantrix.dev</div>
+                        <div class="project-tagline">SaaS Marketplace &amp; Developer Community Platform</div>
+                    </div>
+                    <span class="project-badge badge-wip">🚧 In Development</span>
+                </div>
+                <div class="project-card-body">
+                    <p class="project-desc">
+                        A platform where students and indie developers can showcase and share their SaaS products.
+                        Includes a social feed for sharing experiences, ideas, and development insights plus AI guidance
+                        and a marketplace with revenue via commissions.
+                    </p>
+                    <div class="project-section-label">key features</div>
+                    <ul class="project-features">
+                        <li>SaaS Marketplace for indie and student products</li>
+                        <li>Developer Profiles with portfolio showcase</li>
+                        <li>Social Community Feed</li>
+                        <li>Project Discovery System</li>
+                        <li>Revenue via Marketplace Commissions</li>
+                    </ul>
+                    <div class="project-section-label">tech stack (planned)</div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">AI APIs</span>
+                        <span class="tech-tag">Cloud Hosting</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2: Printing Shop -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div>
+                        <div class="project-name">Printing Shop Management System</div>
+                        <div class="project-tagline">Database Design &amp; Backend Logic</div>
+                    </div>
+                    <span class="project-badge badge-done">✅ Completed</span>
+                </div>
+                <div class="project-card-body">
+                    <p class="project-desc">
+                        A comprehensive database system covering customers, materials, orders, employees,
+                        machines, suppliers, payments, and shop details with full relational integrity
+                        and advanced SQL features.
+                    </p>
+                    <div class="project-section-label">sql highlights</div>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-label">🔁 Trigger</span>
+                            <span class="highlight-text">Automatically updates stock levels when a new order is placed.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">📊 Procedure</span>
+                            <span class="highlight-text">Generates monthly sales reports for each customer automatically.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">🗂 Design</span>
+                            <span class="highlight-text">ERD creation, normalization, primary &amp; foreign key design throughout.</span>
+                        </div>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Oracle</span>
+                        <span class="tech-tag">ERD Design</span>
+                        <span class="tech-tag">Normalization</span>
+                        <span class="tech-tag">Triggers</span>
+                        <span class="tech-tag">Stored Procedures</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3: Course Finder -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div>
+                        <div class="project-name">Course &amp; Video Finder</div>
+                        <div class="project-tagline">Curated Learning Resource Website</div>
+                    </div>
+                    <span class="project-badge badge-done">✅ Completed</span>
+                </div>
+                <div class="project-card-body">
+                    <p class="project-desc">
+                        A website listing curated courses and video resources based on a structured learning journey 
+                        built for students who struggle finding focused, to-the-point material without the noise.
+                    </p>
+                    <div class="project-section-label">purpose</div>
+                    <ul class="project-features">
+                        <li>Solves the real problem of overwhelming, unfocused course content</li>
+                        <li>Curated personally from a real learning path</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 4: Drawing App -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div>
+                        <div class="project-name">Drawing App</div>
+                        <div class="project-tagline">Python Desktop Application</div>
+                    </div>
+                    <span class="project-badge badge-done">✅ Completed</span>
+                </div>
+                <div class="project-card-body">
+                    <p class="project-desc">
+                        A desktop drawing application built with Python Tkinter featuring a rich creative toolkit.
+                    </p>
+                    <div class="project-section-label">features</div>
+                    <ul class="project-features">
+                        <li>Color Palette &amp; adjustable brush size</li>
+                        <li>Undo / Redo functionality</li>
+                        <li>Save &amp; delete options</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Tkinter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 5: Portfolio -->
+            <div class="project-card">
+                <div class="project-card-header">
+                    <div>
+                        <div class="project-name">Personal Portfolio Website</div>
+                        <div class="project-tagline">Responsive Developer Portfolio</div>
+                    </div>
+                    <span class="project-badge badge-done">✅ Completed</span>
+                </div>
+                <div class="project-card-body">
+                    <p class="project-desc">
+                        A fully responsive personal portfolio website built from scratch. Features a fixed sidebar
+                        navigation, multi-page layout, dark theme with an orange accent, and dedicated sections
+                        for About, Education, Skills, Projects, and Contact.
+                    </p>
+                    <div class="project-section-label">highlights</div>
+                    <ul class="project-features">
+                        <li>Multi-page layout with sidebar navigation</li>
+                        <li>Dark theme  responsive &amp; mobile-friendly</li>
+                        <li>No frameworks on the first version  pure HTML &amp; CSS</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="page-footer">
+            <div>Wania Saleem <span style="color:var(--accent)">©</span> 2026</div>
+            <div style="font-size:0.68rem;">// "Building projects, learning continuously, creating solutions through code."</div>
+        </footer>
+
+    </main>
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const drawer    = document.getElementById('mobile-drawer');
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('open');
+        drawer.classList.toggle('open');
+    });
+    document.addEventListener('click', e => {
+        if (!e.target.closest('.sidebar')) {
+            hamburger.classList.remove('open');
+            drawer.classList.remove('open');
+        }
+    });
+</script>
+</body>
+</html>
